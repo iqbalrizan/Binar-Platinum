@@ -1,0 +1,57 @@
+h3{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.testimony .title {
+	text-align: center;
+}
+
+.testimony .carousel{
+	display: flex;
+	flex-direction: column;
+	z-index: 0;
+	margin-top: 24px;
+}
+
+.slick-list{
+	margin-bottom: 24px;
+	height: 270px;
+}
+
+.slick-dots{
+	display: none !important;
+}
+
+.slick-slide {
+	margin: 0px 16px;
+}
+
+.testimony .card{
+	width: 619px;
+	height: 270px;
+
+	background: #F1F3FF;
+	/* Shadow/Low */
+
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	display: flex !important;
+	flex-direction: row;
+	align-items: center;
+}
+
+.testimony .profile-image{
+	margin: auto 23px auto 46px;
+}
+
+.testimony .content{
+	margin: auto 46px auto 23px;
+	display: grid;
+	gap: 8px;
+}
+
+.icon-button{
+	margin: 0px 12px;
+}
