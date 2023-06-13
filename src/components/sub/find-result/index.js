@@ -13,7 +13,7 @@ const FindResult = ({setHeroVisible}) => {
   const [loading, setLoading] = useState(false);
   const [emptyData, setEmptyData] = useState(false);
   
-  const baseUrl = 'https://bootcamp-rent-cars.herokuapp.com/customer';
+  const baseUrl = 'https://api-car-rental.binaracademy.org/customer';
 
   const getCars = () => {
     Axios.get(`${baseUrl}/car`)

@@ -18,7 +18,7 @@ const CarDesc = () => {
   const [buttonDisabled, setButtonDisabled] = useState(true);
   const { allowedMaxDays, beforeToday, combine } = DateRangePicker;
   let { id } = useParams();
-  const baseUrl = 'https://bootcamp-rent-cars.herokuapp.com/customer';
+  const baseUrl = 'https://api-car-rental.binaracademy.org/customer';
   const fetch = useRef(true);
   moment.locale('id')
 

@@ -30,7 +30,7 @@ const PaymentDesc = () => {
   const [detail, setDetail] = useState({});
   let { id } = useParams();
   const fetch = useRef(true);
-  const baseUrl = 'https://bootcamp-rent-cars.herokuapp.com/customer';
+  const baseUrl = 'https://api-car-rental.binaracademy.org/customer';
   const Total = (detail.price * totalHari);
   moment.locale('id');
 

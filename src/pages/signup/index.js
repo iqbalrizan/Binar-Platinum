@@ -21,7 +21,7 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    axios.post('https://bootcamp-rent-cars.herokuapp.com/customer/auth/register', { email, password })
+    axios.post('https://api-car-rental.binaracademy.org/customer/auth/register', { email, password })
       .then((res) => {
         window.location.href = '/sign-in';
         console.log(res);
